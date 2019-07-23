@@ -12,10 +12,5 @@ buildNumber.properties
 .idea
 *.iml
 
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/jazabalatata/prueba.git
-
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
