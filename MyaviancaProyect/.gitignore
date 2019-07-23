@@ -1,0 +1,21 @@
+target/
+build
+.gradle
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.idea
+*.iml
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jazabalatata/prueba.git
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
